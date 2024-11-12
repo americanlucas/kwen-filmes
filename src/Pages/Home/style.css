@@ -1,0 +1,8 @@
+.content {
+    background:
+      linear-gradient(135deg, #31617d , #09334c );
+    height: 100vw;
+    width: 100vw;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }

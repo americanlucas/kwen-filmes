@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-header {
+    margin: 2rem;
+}
+
+.topicos-header {
+    display: flex;
+    margin: 2rem;
+    gap: 2rem;
+}
+

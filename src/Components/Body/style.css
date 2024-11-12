@@ -1,0 +1,121 @@
+.text {
+    display: flex;
+    width: auto;
+    height: 20vh;
+    padding: 1.5rem 8rem;
+    border-radius: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.text h1 {
+    font-size: 40px;
+    color: #fff;
+    padding: .5rem;
+}
+
+.text p {
+    font-size: 30px;
+    color: #fff;
+    padding: .5rem;
+}
+
+.text input {
+    color: #000000;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 10px;    
+    font-size: 20px;
+    border-style: none;
+    border: 3px solid #648dc6;
+}
+
+.text button {
+    color: #ffffff;
+    padding: .5rem 6.3rem;
+    margin: .5rem;
+    border-radius: 10px;    
+    font-size: 20px;
+    border-style: none;
+    border: 3px solid #648dc6;
+    background-color: #648dc6;
+}
+
+.text button:hover {
+    cursor: pointer;
+}
+
+.filme {
+    display: flex;
+    flex-direction: row;
+}
+
+.content img {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.filme-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.filme-text p {
+    color: #fff;
+    padding: 2rem 0;
+    font-size: 1.3rem;
+}
+
+.avaliar {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 2rem;
+    align-items: center;
+}
+
+.avaliar-span {
+    display: flex;
+    flex-direction: row;
+}
+
+.avaliar button {
+    color: #ffffff;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: 10px;    
+    font-size: 20px;
+    border-style: none;
+    border: 3px solid #648dc6;
+    background-color: #648dc6;
+    width: 170px;
+}
+
+.avaliar button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.star {
+    font-size: 40px;
+    cursor: pointer;
+    transition: color 0.3s;
+    color : #787578
+}
+
+.star.active {
+    color: gold;
+}
